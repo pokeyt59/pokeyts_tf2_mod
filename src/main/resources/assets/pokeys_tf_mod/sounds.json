@@ -1,0 +1,60 @@
+{
+  "medic_hurt_sounds": {
+    "subtitle": "subtitles.medic_hurt_sounds",
+    "sounds": [
+      {
+        "name": "pokeys_tf_mod:painsharp01",
+        "stream": false
+      },
+      {
+        "name": "pokeys_tf_mod:painsharp02",
+        "stream": false
+      },
+      {
+        "name": "pokeys_tf_mod:painsharp03",
+        "stream": false
+      },
+      {
+        "name": "pokeys_tf_mod:painsharp04",
+        "stream": false
+      },
+      {
+        "name": "pokeys_tf_mod:painsharp05",
+        "stream": false
+      },
+      {
+        "name": "pokeys_tf_mod:painsharp06",
+        "stream": false
+      },
+      {
+        "name": "pokeys_tf_mod:painsharp07",
+        "stream": false
+      },
+      {
+        "name": "pokeys_tf_mod:painsharp08",
+        "stream": false
+      }
+    ]
+  },
+  "medic_death_sounds": {
+    "subtitle": "subtitles.medic_death_sounds",
+    "sounds": [
+      {
+        "name": "pokeys_tf_mod:paincrticialdeath01",
+        "stream": false
+      },
+      {
+        "name": "pokeys_tf_mod:paincrticialdeath02",
+        "stream": false
+      },
+      {
+        "name": "pokeys_tf_mod:paincrticialdeath03",
+        "stream": false
+      },
+      {
+        "name": "pokeys_tf_mod:paincrticialdeath04",
+        "stream": false
+      }
+    ]
+  }
+}

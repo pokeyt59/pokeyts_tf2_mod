@@ -1,0 +1,68 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "medic_hurt_sounds",
+      "files": [
+        "painsharp01",
+        "painsharp02",
+        "painsharp03",
+        "painsharp04",
+        "painsharp05",
+        "painsharp06",
+        "painsharp07",
+        "painsharp08"
+      ],
+      "category": "neutral",
+      "subtitle": "medic pain"
+    },
+    {
+      "name": "medic_death_sounds",
+      "files": [
+        "paincrticialdeath01",
+        "paincrticialdeath02",
+        "paincrticialdeath03",
+        "paincrticialdeath04"
+      ],
+      "category": "neutral",
+      "subtitle": "medic death"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.medic_death_sounds": "medic death",
+      "subtitles.medic_hurt_sounds": "medic pain"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "medic",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "pokeys_tf_mod",
+    "modName": "pokey\u0027s tf2 mod",
+    "version": "1.0.0",
+    "author": "Tobias, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.pokeystfmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
