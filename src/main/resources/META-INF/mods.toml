@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="pokey's tf2 mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="Tobias, MCreator"
+authors="pokey_yt, MCreator"
 
 [[dependencies.pokeys_tf_mod]]
     modId="minecraft"

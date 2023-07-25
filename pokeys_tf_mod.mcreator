@@ -1,5 +1,23 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Medic",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokeystfmod/client/renderer/MedicRenderer.java",
+          "src/main/java/net/mcreator/pokeystfmod/entity/model/MedicModel.java",
+          "src/main/resources/data/pokeys_tf_mod/forge/biome_modifier/medic_biome_modifier.json",
+          "src/main/resources/assets/pokeys_tf_mod/models/item/medic_spawn_egg.json",
+          "src/main/java/net/mcreator/pokeystfmod/entity/MedicEntity.java"
+        ]
+      },
+      "path": "~/medic"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [
     {
@@ -32,7 +50,9 @@
   "language_map": {
     "en_us": {
       "subtitles.medic_death_sounds": "medic death",
-      "subtitles.medic_hurt_sounds": "medic pain"
+      "item.pokeys_tf_mod.medic_spawn_egg": "Medic Spawn Egg",
+      "subtitles.medic_hurt_sounds": "medic pain",
+      "entity.pokeys_tf_mod.medic": "Medic"
     }
   },
   "foldersRoot": {
@@ -48,7 +68,7 @@
     "modid": "pokeys_tf_mod",
     "modName": "pokey\u0027s tf2 mod",
     "version": "1.0.0",
-    "author": "Tobias, MCreator",
+    "author": "pokey_yt, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,

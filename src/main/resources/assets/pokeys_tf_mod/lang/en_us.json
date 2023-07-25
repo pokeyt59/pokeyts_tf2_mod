@@ -1,4 +1,6 @@
 {
   "subtitles.medic_death_sounds": "medic death",
-  "subtitles.medic_hurt_sounds": "medic pain"
+  "item.pokeys_tf_mod.medic_spawn_egg": "Medic Spawn Egg",
+  "subtitles.medic_hurt_sounds": "medic pain",
+  "entity.pokeys_tf_mod.medic": "Medic"
 }

@@ -32,6 +32,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.pokeystfmod.init.PokeysTfModModSounds;
+import net.mcreator.pokeystfmod.init.PokeysTfModModItems;
+import net.mcreator.pokeystfmod.init.PokeysTfModModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,6 +53,9 @@ public class PokeysTfModMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		PokeysTfModModSounds.REGISTRY.register(bus);
+
+		PokeysTfModModItems.REGISTRY.register(bus);
+		PokeysTfModModEntities.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}
