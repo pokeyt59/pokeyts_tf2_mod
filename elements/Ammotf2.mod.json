@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "TF2 Ammo",
+    "icon": {
+      "value": "CUSTOM:Syrengeammo"
+    },
+    "showSearch": false
+  }
+}

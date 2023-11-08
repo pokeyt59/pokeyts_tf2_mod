@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "m_68464f51-c87f-e6e5-2fe1-73a34f5284b9": "minigun"
+      },
+      "name": "default"
+    }
+  }
+}

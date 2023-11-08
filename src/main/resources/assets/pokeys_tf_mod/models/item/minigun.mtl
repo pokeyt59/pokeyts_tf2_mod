@@ -1,0 +1,13 @@
+newmtl m_68464f51-c87f-e6e5-2fe1-73a34f5284b9
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd pokeys_tf_mod:block/minigun
+Ns 100.0
+d 1.0
+newmtl none
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+Ns 100.0
+d 1.0

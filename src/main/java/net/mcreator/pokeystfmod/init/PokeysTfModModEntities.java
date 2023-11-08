@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.pokeystfmod.entity.MedicEntity;
+import net.mcreator.pokeystfmod.entity.Heavytf2minigunEntity;
 import net.mcreator.pokeystfmod.PokeysTfModMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -26,6 +27,8 @@ public class PokeysTfModModEntities {
 			EntityType.Builder.<MedicEntity>of(MedicEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MedicEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<Heavytf2minigunEntity>> HEAVYTF_2MINIGUN = register("projectile_heavytf_2minigun", EntityType.Builder.<Heavytf2minigunEntity>of(Heavytf2minigunEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(Heavytf2minigunEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Weaponstf 2",
+    "icon": {
+      "value": "CUSTOM:Hwgammo"
+    },
+    "showSearch": true
+  }
+}

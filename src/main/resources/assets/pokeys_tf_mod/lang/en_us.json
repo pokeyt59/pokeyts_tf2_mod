@@ -1,6 +1,13 @@
 {
+  "item.pokeys_tf_mod.hwgammo": "mini gun ammo",
+  "subtitles.minigun_shooting": "minigun shooting",
   "subtitles.medic_death_sounds": "medic death",
+  "item_group.pokeys_tf_mod.ammotf_2": "TF2 Ammo",
   "item.pokeys_tf_mod.medic_spawn_egg": "Medic Spawn Egg",
+  "subtitles.minigun_shoot": "minigun shooting",
+  "item_group.pokeys_tf_mod.weaponstf_2": "Weaponstf 2",
+  "item.pokeys_tf_mod.syrengeammo": "Syrengeammo",
   "subtitles.medic_hurt_sounds": "medic pain",
+  "item.pokeys_tf_mod.heavytf_2minigun": "Heavy\u0027s minigun",
   "entity.pokeys_tf_mod.medic": "Medic"
 }

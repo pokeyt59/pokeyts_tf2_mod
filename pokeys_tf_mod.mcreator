@@ -3,6 +3,7 @@
     {
       "name": "Medic",
       "type": "animatedentity",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "medic",
@@ -16,6 +17,76 @@
         ]
       },
       "path": "~/medic"
+    },
+    {
+      "name": "Syrengeammo",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syrengeammo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokeys_tf_mod/models/item/syrengeammo.json",
+          "src/main/java/net/mcreator/pokeystfmod/item/SyrengeammoItem.java"
+        ]
+      },
+      "path": "~/ammo"
+    },
+    {
+      "name": "Ammotf2",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ammotf_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/creative tabs"
+    },
+    {
+      "name": "Hwgammo",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwgammo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokeys_tf_mod/models/item/hwgammo.json",
+          "src/main/java/net/mcreator/pokeystfmod/item/HwgammoItem.java"
+        ]
+      },
+      "path": "~/ammo"
+    },
+    {
+      "name": "Heavytf2minigun",
+      "type": "rangeditem",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavytf_2minigun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokeystfmod/item/Heavytf2minigunItem.java",
+          "src/main/resources/assets/pokeys_tf_mod/models/item/heavytf_2minigun.json",
+          "src/main/java/net/mcreator/pokeystfmod/entity/Heavytf2minigunEntity.java"
+        ]
+      },
+      "path": "~/heavy/weapons"
+    },
+    {
+      "name": "Weaponstf2",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weaponstf_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/creative tabs"
     }
   ],
   "variable_elements": [],
@@ -45,13 +116,28 @@
       ],
       "category": "neutral",
       "subtitle": "medic death"
+    },
+    {
+      "name": "minigun_shooting",
+      "files": [
+        "minigun_shoot_remix"
+      ],
+      "category": "player",
+      "subtitle": "minigun shooting"
     }
   ],
   "language_map": {
     "en_us": {
+      "item.pokeys_tf_mod.hwgammo": "mini gun ammo",
+      "subtitles.minigun_shooting": "minigun shooting",
       "subtitles.medic_death_sounds": "medic death",
+      "item_group.pokeys_tf_mod.ammotf_2": "TF2 Ammo",
       "item.pokeys_tf_mod.medic_spawn_egg": "Medic Spawn Egg",
+      "subtitles.minigun_shoot": "minigun shooting",
+      "item_group.pokeys_tf_mod.weaponstf_2": "Weaponstf 2",
+      "item.pokeys_tf_mod.syrengeammo": "Syrengeammo",
       "subtitles.medic_hurt_sounds": "medic pain",
+      "item.pokeys_tf_mod.heavytf_2minigun": "Heavy\u0027s minigun",
       "entity.pokeys_tf_mod.medic": "Medic"
     }
   },
@@ -61,6 +147,23 @@
       {
         "name": "medic",
         "children": []
+      },
+      {
+        "name": "ammo",
+        "children": []
+      },
+      {
+        "name": "creative tabs",
+        "children": []
+      },
+      {
+        "name": "heavy",
+        "children": [
+          {
+            "name": "weapons",
+            "children": []
+          }
+        ]
       }
     ]
   },
@@ -84,5 +187,5 @@
     "modElementsPackage": "net.mcreator.pokeystfmod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300224119
+  "mcreatorVersion": 202300336712
 }

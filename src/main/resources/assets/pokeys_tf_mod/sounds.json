@@ -56,5 +56,14 @@
         "stream": false
       }
     ]
+  },
+  "minigun_shooting": {
+    "subtitle": "subtitles.minigun_shooting",
+    "sounds": [
+      {
+        "name": "pokeys_tf_mod:minigun_shoot_remix",
+        "stream": false
+      }
+    ]
   }
 }

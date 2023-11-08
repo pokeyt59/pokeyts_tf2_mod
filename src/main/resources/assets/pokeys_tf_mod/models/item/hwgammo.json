@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "pokeys_tf_mod:item/ammo_minigun"
+  }
+}
